@@ -1,0 +1,15 @@
+<h1>Home</h1>
+<p>Find me in app/views/welcome/index.html.erb</p>
+
+<tbody>
+ <h4><%= link_to 'category', categories_path %></h4>
+ <h4><%= link_to 'articles',  articles_path%></h4>
+
+
+<h3>Obsah: </h3>
+<% @categories.each do |category| %>
+  <tr>
+    <td><%= link_to category.title, categories_path(category) %></td><br>
+  </tr>
+<% end %>
+</tbody>
