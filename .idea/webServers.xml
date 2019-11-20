@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9efe8da8-dcdd-4093-a02e-ad070e8570b7" name="https://github.com/Khralen/project-2019-11-20" url="http://localhost">
+        <fileTransfer port="0" accessType="MOUNT">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
